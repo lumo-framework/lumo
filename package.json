@@ -24,8 +24,8 @@
     "lint": "eslint . --ext .ts"
   },
   "dependencies": {
-    "@tsc-run/adapter-aws": "^0.2.0-alpha.3",
-    "@tsc-run/core": "^0.2.0-alpha.3",
+    "@tsc-run/adapter-aws": "^0.2.0-alpha.6",
+    "@tsc-run/core": "^0.2.0-alpha.6",
     "uuid": "^11.1.0",
     "zod": "^3.25.23"
   },
