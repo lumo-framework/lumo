@@ -1,13 +1,15 @@
 # tsc.run
 
-Example serverless TypeScript application built with tsc.run.
+A starter template for building serverless TypeScript applications with tsc.run
 
 ## Get Started
 
 ```bash
-git clone https://github.com/tsc-run/tsc.run.git my-app
-cd my-app
-npm install
+# Install the CLI
+npm install -g @tsc-run/cli
+
+# Create a new project
+tsc-run new my-project
 ```
 
 ## Documentation
