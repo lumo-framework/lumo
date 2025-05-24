@@ -1,0 +1,40 @@
+{
+  "name": "@tsc-run/tsc.run",
+  "version": "0.1.0",
+  "description": "Example serverless TypeScript application built with tsc.run",
+  "type": "module",
+  "author": "TSC.run",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsc-run/tsc.run.git"
+  },
+  "homepage": "https://docs.tsc.run",
+  "keywords": [
+    "typescript",
+    "serverless",
+    "aws",
+    "lambda",
+    "framework"
+  ],
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "@tsc-run/adapter-aws": "^1.0.0-alpha.1",
+    "@tsc-run/core": "^1.0.0-alpha.1",
+    "uuid": "^11.1.0",
+    "zod": "^3.25.23"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "eslint": "^8.0.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
