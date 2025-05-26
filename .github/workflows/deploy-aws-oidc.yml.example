@@ -1,0 +1,54 @@
+# Deploy to AWS using OIDC (Recommended)
+#
+# To set up OIDC authentication with AWS:
+# 1. Follow the AWS documentation: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_oidc.html
+# 2. Create an OIDC identity provider in AWS IAM with:
+#    - Provider URL: https://token.actions.githubusercontent.com
+#    - Audience: sts.amazonaws.com
+# 3. Create an IAM role with the necessary permissions for your deployment
+# 4. Add the role ARN to your GitHub repository secrets as AWS_ROLE_ARN
+#
+# Benefits of OIDC over access keys:
+# - No long-lived credentials to manage
+# - More secure as tokens are short-lived
+# - Better audit trail and role-based access control
+
+name: Deploy to AWS (OIDC)
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          role-session-name: GitHubActionsDeployment
+          aws-region: eu-west-2
+
+      - name: Build project
+        run: npx @tsc-run/cli build
+
+      - name: Deploy to AWS
+        run: npx @tsc-run/cli deploy
