@@ -30,7 +30,7 @@ If you’re unsure, **open a private report in this repo** - we’ll triage and 
 | Branch / Tag | Supported? |
 |--------------|-----------|
 | `main` (latest **alpha** code) | ✅ |
-| Any git tag `< 0.7.0-alpha` | ❌ *(please update to `main` before reporting)* |
+| Any git tag `< 0.2.0-alpha.7` | ❌ *(please update to `main` before reporting)* |
 
 > During alpha we only patch the *tip* of the default branch. Fixed issues are released as soon as the patch merges.
 
