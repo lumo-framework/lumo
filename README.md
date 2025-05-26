@@ -4,10 +4,10 @@
   <a href="https://github.com/tsc-run/monorepo/actions/workflows/release.yml">
     <img alt="CI Status" src="https://github.com/tsc-run/monorepo/actions/workflows/release.yml/badge.svg">
   </a>
-  <a href="https://www.npmjs.com/package/tsc-run">
+  <a href="https://www.npmjs.com/package/@tsc-run/core">
     <img alt="npm version" src="https://img.shields.io/npm/v/@tsc-run/core">
   </a>
-  <a href="https://www.npmjs.com/package/tsc-run">
+  <a href="https://www.npmjs.com/package/@tsc-run/core">
     <img alt="npm downloads" src="https://img.shields.io/npm/dm/@tsc-run/core">
   </a>
   <img alt="License" src="https://img.shields.io/github/license/tsc-run/monorepo">
