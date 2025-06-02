@@ -34,16 +34,16 @@
 ## 🌩️ Supported Cloud Adapters
 
 <div align="center">
-  <table>
+  <table style="background-color: white; border-radius: 10px;">
     <tr>
-      <td align="center" style="padding: 20px">
+      <td align="center" style="padding: 30px; background-color: white; border-radius: 10px;">
         <a href="https://docs.tsc.run/docs/deploy-aws/" target="_blank">
           <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" height="80" alt="AWS" style="margin-bottom: 10px"><br>
           <strong>Amazon Web Services</strong><br>
           <sub>Lambda, DynamoDB, SQS & more</sub>
         </a>
       </td>
-      <td align="center" style="padding: 20px">
+      <td align="center" style="padding: 30px; background-color: white; border-radius: 10px;">
         <a href="https://docs.tsc.run/docs/deploy-cloudflare/" target="_blank">
           <img src="https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg" height="80" alt="Cloudflare" style="margin-bottom: 10px"><br>
           <strong>Cloudflare Workers</strong><br>
