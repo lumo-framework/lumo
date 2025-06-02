@@ -31,17 +31,28 @@
 
 🚀 No Docker. No infrastructure. Build and deploy.
 
-## Supported Cloud Adapters
+## 🌩️ Supported Cloud Adapters
 
-<p align="center">
-  <a href="https://docs.tsc.run/docs/deploy-aws/" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" height="60" alt="AWS">
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://docs.tsc.run/docs/deploy-cloudflare/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg" height="60" alt="Cloudflare">
-  </a>
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" style="padding: 20px">
+        <a href="https://docs.tsc.run/docs/deploy-aws/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" height="80" alt="AWS" style="margin-bottom: 10px"><br>
+          <strong>Amazon Web Services</strong><br>
+          <sub>Lambda, DynamoDB, SQS & more</sub>
+        </a>
+      </td>
+      <td align="center" style="padding: 20px">
+        <a href="https://docs.tsc.run/docs/deploy-cloudflare/" target="_blank">
+          <img src="https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg" height="80" alt="Cloudflare" style="margin-bottom: 10px"><br>
+          <strong>Cloudflare Workers</strong><br>
+          <sub>Edge computing at scale</sub>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 
 ## Demo
