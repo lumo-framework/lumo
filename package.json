@@ -14,27 +14,29 @@
     "typescript",
     "serverless",
     "aws",
+    "cloudflare",
     "lambda",
     "framework"
   ],
   "scripts": {
-    "dev": "tsc --watch",
-    "build": "tsc",
+    "dev": "tsc-run dev",
+    "build": "tsc-run build",
+    "deploy": "tsc-run deploy",
     "clean": "rm -rf dist",
     "lint": "eslint . --ext .ts"
   },
   "dependencies": {
-    "@tsc-run/adapter-aws": "^0.2.0-alpha.6",
-    "@tsc-run/core": "^0.2.0-alpha.6",
+    "@tsc-run/adapter-aws": "^0.6.0-alpha.1",
+    "@tsc-run/core": "^0.6.0-alpha.1",
     "uuid": "^11.1.0",
     "zod": "^3.25.23"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0",
+    "@types/node": "^22.0.0",
     "eslint": "^8.0.0",
     "typescript": "^5.3.0"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   }
 }
