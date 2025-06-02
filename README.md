@@ -31,11 +31,22 @@
 
 🚀 No Docker. No infrastructure. Build and deploy.
 
+## Supported Cloud Adapters
 
+<p align="center">
+  <a href="https://docs.tsc.run/docs/deploy-aws/" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" height="60" alt="AWS">
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://docs.tsc.run/docs/deploy-cloudflare/" target="_blank">
+    <img src="https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg" height="60" alt="Cloudflare">
+  </a>
+</p>
+
+
+## Demo
 
 https://github.com/user-attachments/assets/895d76ff-2df1-49ab-813a-5eb4a2471a13
-
-
 
 ## Documentation
 
