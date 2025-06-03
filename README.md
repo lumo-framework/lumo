@@ -1,4 +1,4 @@
-<p align="center"><a href="https://docs.tsc.run" target="_blank"><img src="https://www.tsc.run/tsc-logo.svg" width="200" alt="tsc.run Logo"></a></p>
+<p align="center"><a href="https://docs.tsc.run" target="_blank"><img src="https://tsc.run/tsc-mascot.png" width="200" alt="tsc.run Logo"></a></p>
 
 <p align="center">
   <a href="https://github.com/tsc-run/monorepo/actions/workflows/release.yml">
