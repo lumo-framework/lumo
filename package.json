@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/tsc-run/tsc.run.git"
   },
-  "homepage": "https://docs.tsc.run",
+  "homepage": "https://tsc.run",
   "keywords": [
     "typescript",
     "serverless",

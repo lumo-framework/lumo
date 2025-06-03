@@ -1,4 +1,4 @@
-<p align="center"><a href="https://docs.tsc.run" target="_blank"><img src="https://tsc.run/tsc-mascot.png" width="200" alt="tsc.run Logo"></a></p>
+<p align="center"><a href="https://tsc.run" target="_blank"><img src="https://tsc.run/tsc-mascot.png" width="200" alt="tsc.run Logo"></a></p>
 
 <p align="center">
   <a href="https://github.com/tsc-run/monorepo/actions/workflows/release.yml">
@@ -35,8 +35,8 @@
 
 Deploy your TypeScript functions to multiple cloud providers:
 
-- **[Amazon Web Services](https://docs.tsc.run/docs/deploy-aws/)** - AWS Lambda, DynamoDB, SQS, and more
-- **[Cloudflare Workers](https://docs.tsc.run/docs/deploy-cloudflare/)** - Edge computing at scale with global distribution
+- **[Amazon Web Services](https://tsc.run/0.7.0-alpha/deployment#aws-deployment)** - AWS Lambda, DynamoDB, SQS, and more
+- **[Cloudflare Workers](https://tsc.run/0.7.0-alpha/deployment#cloudflare-deployment)** - Edge computing at scale with global distribution
 
 
 ## Demo
@@ -45,7 +45,7 @@ https://github.com/user-attachments/assets/895d76ff-2df1-49ab-813a-5eb4a2471a13
 
 ## Documentation
 
-Full documentation is available at [docs.tsc.run](https://docs.tsc.run).
+Full documentation is available at [docs.tsc.run](https://tsc.run).
 
 ## Get Started
 
@@ -143,7 +143,7 @@ async function sendWelcomeEmail(email: string, name: string) {
 
 ## Documentation
 
-Visit [docs.tsc.run](https://docs.tsc.run)
+Visit [docs.tsc.run](https://tsc.run)
 
 ## License
 
