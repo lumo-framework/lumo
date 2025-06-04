@@ -1,4 +1,4 @@
-<p align="center"><a href="https://lumo-framework.dev" target="_blank"><img src="https://lumo-framework.dev/lumo-mascot.png" width="200" alt="Lumo Framework Logo"></a></p>
+<p align="center"><a href="https://lumo-framework.dev" target="_blank"><img src="https://lumo-framework.dev/tamo-mascot.png" width="200" alt="Lumo Framework Logo"></a></p>
 
 <p align="center">
   <a href="https://github.com/lumo-framework/monorepo/actions/workflows/release.yml">
