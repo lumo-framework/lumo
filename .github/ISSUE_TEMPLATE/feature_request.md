@@ -13,8 +13,8 @@ assignees: mrbenosborne
 
 Before filling out this template, please check where your request belongs:
 
-- **🔧 New CLI commands, adapters, or core framework features** → Request in [tsc-run/monorepo](https://github.com/tsc-run/monorepo/issues/new)
-- **📚 Documentation improvements or new guides** → Request in [tsc-run/docs](https://github.com/tsc-run/docs/issues/new)  
+- **🔧 New CLI commands, adapters, or core framework features** → Request in [lumo-framework/monorepo](https://github.com/lumo-framework/monorepo/issues/new)
+- **📚 Documentation improvements or new guides** → Request in [lumo-framework/website](https://github.com/lumo-framework/website/issues/new)  
 - **📋 Template improvements** (better examples, additional configs, starter enhancements) → Continue here
 - **❓ Not sure?** → Continue here and we'll triage it for you
 

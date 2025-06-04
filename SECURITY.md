@@ -1,6 +1,6 @@
 # Security Policy
 
-Thank you for helping keep **tsc-run** and its community safe!  
+Thank you for helping keep **Lumo** and its community safe!  
 This policy explains how to report potential security issues responsibly.
 
 ---
@@ -10,8 +10,8 @@ This policy explains how to report potential security issues responsibly.
 | Repo | Report here **only if** the vulnerability is in… |
 |------|--------------------------------------------------|
 | **Starter template** (this repo) | Template scaffolding, example configs, CI scripts, starter-specific docs |
-| **Monorepo** <https://github.com/tsc-run/monorepo> | CLI, adapters, the core framework runtime, shared utilities |
-| **Docs** <https://github.com/tsc-run/docs> | Markdown docs, deployed website |
+| **Monorepo** <https://github.com/lumo-framework/monorepo> | CLI, adapters, the core framework runtime, shared utilities |
+| **Docs** <https://github.com/lumo-framework/website> | Markdown docs, deployed website |
 
 If you’re unsure, **open a private report in this repo** - we’ll triage and forward where appropriate.
 
@@ -38,7 +38,7 @@ If you’re unsure, **open a private report in this repo** - we’ll triage and 
 
 ## 🔒 Reporting a Vulnerability
 
-* **Email:** `tsc.run@icloud.com`  
+* **Email:** `lumo@icloud.com`  
   — *or* —
 * **GitHub:** [Create a private “Security advisory”](../../security/advisories/new)
 

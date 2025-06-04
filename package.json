@@ -1,15 +1,15 @@
 {
-  "name": "@tsc-run/tsc.run",
+  "name": "@lumo-framework/lumo",
   "version": "0.1.0",
-  "description": "Example serverless TypeScript application built with tsc.run",
+  "description": "Example serverless TypeScript application built with Lumo Framework.",
   "type": "module",
-  "author": "TSC.run",
+  "author": "Lumo Framework",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tsc-run/tsc.run.git"
+    "url": "https://github.com/lumo-framework/lumo.git"
   },
-  "homepage": "https://tsc.run",
+  "homepage": "https://lumo-framework.dev",
   "keywords": [
     "typescript",
     "serverless",
@@ -19,15 +19,15 @@
     "framework"
   ],
   "scripts": {
-    "dev": "tsc-run dev",
-    "build": "tsc-run build",
-    "deploy": "tsc-run deploy",
+    "dev": "lumo dev",
+    "build": "lumo build",
+    "deploy": "lumo deploy",
     "clean": "rm -rf dist",
     "lint": "eslint . --ext .ts"
   },
   "dependencies": {
-    "@tsc-run/adapter-aws": "^0.6.0-alpha.1",
-    "@tsc-run/core": "^0.6.0-alpha.1",
+    "@lumo-framework/adapter-aws": "^0.1.0-alpha.4",
+    "@lumo-framework/core": "^0.1.0-alpha.4",
     "uuid": "^11.1.0",
     "zod": "^3.25.23"
   },

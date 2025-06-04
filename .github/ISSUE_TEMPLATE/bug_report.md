@@ -13,8 +13,8 @@ assignees: mrbenosborne
 
 Before filling out this template, please check where your issue belongs:
 
-- **🔧 CLI, cloud provider adapters, or core framework issues** → Report in [tsc-run/monorepo](https://github.com/tsc-run/monorepo/issues/new)
-- **📚 Documentation issues** → Report in [tsc-run/docs](https://github.com/tsc-run/docs/issues/new)  
+- **🔧 CLI, cloud provider adapters, or core framework issues** → Report in [lumo-framework/monorepo](https://github.com/lumo-framework/monorepo/issues/new)
+- **📚 Documentation issues** → Report in [lumo-framework/website](https://github.com/lumo-framework/website/issues/new)  
 - **📋 Template-specific issues** (starter configs, example files, template README) → Continue here
 - **❓ Not sure?** → Continue here and we'll triage it for you
 

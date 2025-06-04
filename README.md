@@ -1,20 +1,20 @@
-<p align="center"><a href="https://tsc.run" target="_blank"><img src="https://tsc.run/tsc-mascot.png" width="200" alt="tsc.run Logo"></a></p>
+<p align="center"><a href="https://lumo-framework.dev" target="_blank"><img src="https://lumo-framework.dev/lumo-mascot.png" width="200" alt="Lumo Framework Logo"></a></p>
 
 <p align="center">
-  <a href="https://github.com/tsc-run/monorepo/actions/workflows/release.yml">
-    <img alt="CI Status" src="https://github.com/tsc-run/monorepo/actions/workflows/release.yml/badge.svg">
+  <a href="https://github.com/lumo-framework/monorepo/actions/workflows/release.yml">
+    <img alt="CI Status" src="https://github.com/lumo-framework/monorepo/actions/workflows/release.yml/badge.svg">
   </a>
-  <a href="https://www.npmjs.com/package/@tsc-run/core">
-    <img alt="npm version" src="https://img.shields.io/npm/v/@tsc-run/core">
+  <a href="https://www.npmjs.com/package/@lumo-framework/core">
+    <img alt="npm version" src="https://img.shields.io/npm/v/@lumo-framework/core">
   </a>
-  <a href="https://www.npmjs.com/package/@tsc-run/core">
-    <img alt="npm downloads" src="https://img.shields.io/npm/dm/@tsc-run/core">
+  <a href="https://www.npmjs.com/package/@lumo-framework/core">
+    <img alt="npm downloads" src="https://img.shields.io/npm/dm/@lumo-framework/core">
   </a>
-  <img alt="License" src="https://img.shields.io/github/license/tsc-run/monorepo">
-  <img alt="Contributors" src="https://img.shields.io/github/contributors/tsc-run/monorepo?color=blue">
+  <img alt="License" src="https://img.shields.io/github/license/lumo-framework/monorepo">
+  <img alt="Contributors" src="https://img.shields.io/github/contributors/lumo-framework/monorepo?color=blue">
 </p>
 
-> tsc.run is a minimal framework for building serverless applications in TypeScript. It ships with a CLI to deploy your
+> Lumo is a minimal framework for building serverless applications in TypeScript. It ships with a CLI to deploy your
 > app to AWS, GCP, Cloudflare.
 
 ## Features
@@ -35,8 +35,8 @@
 
 Deploy your TypeScript functions to multiple cloud providers:
 
-- **[Amazon Web Services](https://tsc.run/0.7.0-alpha/deployment#aws-deployment)** - AWS Lambda, DynamoDB, SQS, and more
-- **[Cloudflare Workers](https://tsc.run/0.7.0-alpha/deployment#cloudflare-deployment)** - Edge computing at scale with global distribution
+- **[Amazon Web Services](https://lumo-framework.dev/0.7.0-alpha/deployment#aws-deployment)** - AWS Lambda, DynamoDB, SQS, and more
+- **[Cloudflare Workers](https://lumo-framework.dev/0.7.0-alpha/deployment#cloudflare-deployment)** - Edge computing at scale with global distribution
 
 
 ## Demo
@@ -45,20 +45,20 @@ https://github.com/user-attachments/assets/895d76ff-2df1-49ab-813a-5eb4a2471a13
 
 ## Documentation
 
-Full documentation is available at [docs.tsc.run](https://tsc.run).
+Full documentation is available at [docs.lumo-framework.dev](https://lumo-framework.dev).
 
 ## Get Started
 
 ### Install the CLI
 
 ```sh
-npm install -g @tsc-run/cli
+npm install -g @lumo-framework/cli
 ```
 
 ### Create a new project
 
 ```sh
-tsc-run new my-project
+lumo new my-project
 ```
 
 ### Deploy your project
@@ -67,7 +67,7 @@ If you have an AWS account, you can deploy your project, just ensure you have th
 credentials and the below environment variables set `CDK_DEFAULT_ACCOUNT` and `CDK_DEFAULT_REGION`:
 
 ```sh
-tsc-run build && tsc-run deploy
+lumo build && lumo deploy
 ```
 
 ## Examples
@@ -80,7 +80,7 @@ Create a simple API endpoint by exporting HTTP method functions:
 
 ```ts
 // functions/api/users/index.ts
-import {http} from "@tsc-run/core";
+import {http} from "@lumo-framework/core";
 
 export async function GET(request: http.Request) {
     return http.response(http.STATUS_OK).json({
@@ -94,7 +94,7 @@ export async function GET(request: http.Request) {
 Dispatch events from your API handlers using the events.emit() function:
 
 ```ts
-import {http, events} from '@tsc-run/core';
+import {http, events} from '@lumo-framework/core';
 import type {UserRegisteredEvent} from '../events/user-registered.js';
 
 export async function POST(request: http.Request) {
@@ -122,7 +122,7 @@ Create a subscriber by exporting a listen function from a file in your functions
 
 ```ts
 // functions/subscribers/send-welcome-email.ts
-import {events} from '@tsc-run/core';
+import {events} from '@lumo-framework/core';
 import type {UserRegisteredEvent} from '../../events/user-registered.js';
 
 export async function listen(event: events.Event<UserRegisteredEvent>) {
@@ -143,7 +143,7 @@ async function sendWelcomeEmail(email: string, name: string) {
 
 ## Documentation
 
-Visit [docs.tsc.run](https://tsc.run)
+Visit [docs.lumo-framework.dev](https://lumo-framework.dev)
 
 ## License
 

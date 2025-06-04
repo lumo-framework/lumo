@@ -1,7 +1,7 @@
-import {http} from "@tsc-run/core";
+import {http} from "@lumo-framework/core";
 
 export async function GET() {
     return http.response(http.STATUS_OK).json({
-        data: 'Hello from tsc.run!',
+        data: 'Hello from Lumo!',
     });
 }
