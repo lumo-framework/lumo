@@ -9,7 +9,7 @@ View the [Roadmap](https://github.com/orgs/lumo-framework/projects/1/views/2) fo
 - **Breaking Change:** [#38](https://github.com/lumo-framework/monorepo/issues/38) Renamed the helper function `fromEnv` to `env` under `@lumo-framework/core` for better clarity. Thanks to [SS1L](https://github.com/SS1L)!
 
 ### CLI
-No changes.
+- **Fix(1.0.0-alpha.2):** [#48](https://github.com/lumo-framework/monorepo/issues/48) Cloudflare API Routes returning 404.
 
 ### Adapters
 No changes.
