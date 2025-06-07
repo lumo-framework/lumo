@@ -141,9 +141,24 @@ async function sendWelcomeEmail(email: string, name: string) {
 }
 ```
 
+## Contributors
+
+Thanks to these awesome people who have contributed to the project:
+
+<table style="border: none;">
+  <tr style="border: none;">
+    <td align="center" style="border: none;">
+      <a href="https://github.com/SS1L">
+        <img src="https://github.com/SS1L.png" width="80px;" alt="SS1L" style="border-radius: 50%;"/><br />
+        <sub><b>SS1L</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## Documentation
 
-Visit [docs.lumo-framework.dev](https://lumo-framework.dev)
+Visit [lumo-framework.dev](https://lumo-framework.dev)
 
 ## License
 
